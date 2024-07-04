@@ -5,6 +5,9 @@ import pandas as pd
 import getpass
 
 api_key = "API key here"
+# To get the playlist id, copy the video url for example this one: https://youtu.be/nRW90GASSXE?list=PL6gx4Cwl9DGA8Vys-f48mAH9OKSUyav0q
+# Then remove all of the text up until the = sign, like so: PL6gx4Cwl9DGA8Vys-f48mAH9OKSUyav0q
+# All the text after the equal sign is the text that needs to go in the playlist_ids tag.
 playlist_ids = ['Youtube playlist here']
 
 # Build the YouTube client
